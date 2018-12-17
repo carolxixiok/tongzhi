@@ -1,0 +1,15 @@
+{
+  "list":[{
+    "spname":"三只松鼠",
+    "spid":"S01",
+    "spjiage":50
+  },{"spname": "肉松饼",
+      "spid": "S02",
+      "spjiage": 10
+    },{
+      "spname": "猪肉铺",
+      "spid": "S02",
+      "spjiage": 10
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+<import src="../../ages../wxParse/wxParse.wxml"/>
+  <!--页头-->
+  <view>
+    日常
+</view>
+<!--/页头-->
+<!--功能模块-->
+<section>
+    <view id="gn-wrap">
+        <view class="gn-kuai">
+            <navigator url="kebiao.html">
+                <view>
+                    <image src="../../images/rili.png" alt=""></image>
+                    <view>课表</view>
+                </view>
+            </navigator>
+        </view>
+        <view class="gn-kuai clear">
+            <view>
+                <image src="../../images/grade.png" alt=""></image>
+                <view>成绩查询</view>
+            </view>
+        </view>
+        <view class="gn-kuai">
+            <view>
+                <image src="../../images/kaoqin.png" alt=""></image>
+                <view>考勤</view>
+            </view>
+        </view>
+        <view class="gn-kuai clear">
+            <view>
+                <image src="../../images/shuibiao.png" alt=""></image>
+                <view>水电</view>
+            </view>
+        </view>
+        <view class="gn-kuai">
+            <view>
+                <image src="../../images/xszc.png" alt=""></image>
+                <view>形势与政策</view>
+            </view>
+        </view>
+        <view class="gn-kuai clear">
+            <view>
+                <image src="../../images/jiaoshi.png" alt=""></image>
+                <view>借用教室</view>
+            </view>
+        </view>
+        <view class="gn-kuai">
+            <view>
+                <image src="../../images/phone.png" alt=""></image>
+                <view>联系人</view>
+            </view>
+        </view>
+        <view class="gn-kuai clear">
+            <view>
+                <image src="../../images/feiyong.png" alt=""></image>
+                <view>网费</view>
+            </view>
+        </view>
+
+    </view>
+</section>
+<!--/功能模块-->
+<!--页脚-->
+
+<view>
+        <view class="foot">
+           <navigator url="inform.html"><view class="img"></view></navigator>
+           <view class="text">通知</view>
+        </view>
+        <view class="foot">
+           <navigator url=""><view class="img"></view></navigator>
+           <view class="text">比赛</view>
+       </view>
+       <view class="foot">
+           <navigator url="day.html"><view class="img"></view></navigator>
+           <view class="text">生活</view>
+       </view>
+       <view class="foot">
+           <view class="img"></view>
+           <view class="text">我</view>
+       </view>
+   </view>

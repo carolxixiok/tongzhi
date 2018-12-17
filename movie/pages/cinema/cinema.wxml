@@ -1,0 +1,60 @@
+
+
+<!--功能模块-->
+<view id="body">
+    <view id="gn-wrap">
+        <view class="gn-kuai">
+            <navigator url="kebiao.html">
+                <view>
+                    <image class="img" src="../../images/tzimg/rili.png" alt=""></image>
+                    <view>课表</view>
+                </view>
+            </navigator>
+        </view>
+        <view class="gn-kuai clear">
+            <view>
+                <image class="img" src="../../images/tzimg/grade.png" alt=""></image>
+                <view>成绩查询</view>
+            </view>
+        </view>
+        <view class="gn-kuai">
+            <view>
+                <image class="img" src="../../images/tzimg/kaoqin.png" alt=""></image>
+                <view>考勤</view>
+            </view>
+        </view>
+        <view class="gn-kuai clear">
+            <view>
+                <image class="img" src="../../images/tzimg/shuibiao.png" alt=""></image>
+                <view>水电</view>
+            </view>
+        </view>
+        <view class="gn-kuai">
+            <view>
+                <image class="img" src="../../images/tzimg/xszc.png" alt=""></image>
+                <view>形势与政策</view>
+            </view>
+        </view>
+        <view class="gn-kuai clear">
+            <view>
+                <image class="img" src="../../images/tzimg/jiaoshi.png" alt=""></image>
+                <view>借用教室</view>
+            </view>
+        </view>
+        <view class="gn-kuai">
+            <view>
+                <image class="img" src="../../images/tzimg/phone.png" alt=""></image>
+                <view>联系人</view>
+            </view>
+        </view>
+        <view class="gn-kuai clear">
+            <view>
+                <image class="img" src="../../images/tzimg/feiyong.png" alt=""></image>
+                <view>网费</view>
+            </view>
+        </view>
+
+    </view>
+</view>
+<!--/功能模块-->
+

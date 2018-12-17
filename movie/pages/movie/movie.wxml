@@ -1,0 +1,6 @@
+<!--pages/movie/movie.wxml-->
+
+
+      <a href="{{pages/me/me}}"><image src="../../images/10.jpg"></image></a>
+    
+

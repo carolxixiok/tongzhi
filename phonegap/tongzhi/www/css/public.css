@@ -1,0 +1,38 @@
+footer{
+    width:100%;
+    position: fixed;
+    bottom: 0px;
+    height: 3.3em;
+    z-index: 1000;
+    
+}
+.foot{
+    float: left;
+    padding:0.4em 0em;
+    width:25%;
+    height: 4em;
+    background: gold;
+    /* left:50%;
+    transform: translateX(-50%) */
+}
+.img{
+   width:1.7em;
+   height:1.7em;
+   background: red;
+   margin: auto
+}
+.text{
+    text-align: center;
+    font-size: 0.7em 
+}
+/*返回*/
+.back{
+    position: absolute;
+    width:1.5em;
+    height: 1.5em;
+    
+    left:0.4em
+  }
+  .back img{
+      width: 100%
+  }
