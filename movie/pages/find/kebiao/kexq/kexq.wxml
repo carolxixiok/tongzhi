@@ -1,0 +1,26 @@
+  <!--/页头-->
+    <view id='edit'>
+        <form bindsubmit="">
+            <view class="row" id="kc">
+                <text>课程</text>
+                <input type="text" name=""/>
+            </view>
+            <view class="row">
+                <text>教室</text>
+                <input type="text" name=""/>
+            </view>
+            <view class="row">
+                <text>周数</text>
+                <input type="text" value="9-17周" name=""/>
+            </view>
+            <view class="row">
+                <text>节数</text>
+                <input type="text" value="12-13节" name=""/>
+            </view>
+            <view class="row">
+                <text>老师</text>
+                <input type="text" name=""/>
+            </view>
+            <view id="save-btn">保存</view>
+        </form>
+    </view>

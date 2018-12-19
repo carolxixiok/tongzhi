@@ -74,8 +74,8 @@ p {
     height:4rem;
 }
 .form_wrapper .logo img{
-    width: 1em;
-    height:1em;
+    width: 0.8em;
+    height:0.8em;
     position: absolute;
     top:50%; 
     left:50%;
@@ -84,16 +84,14 @@ p {
 .form_input {
     display: block;
     position: absolute;
-    top:0px;
-    right:0px;
+    top: 0px;
+    right: 0px;
     width: 85%;
     box-sizing: border-box;
     color: #444;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     outline: 0;
     border: none;
-    padding: 0.8em 0em;
-    padding-left:0.5em
 }
 .form_input:focus {
     background-position: 0 0;

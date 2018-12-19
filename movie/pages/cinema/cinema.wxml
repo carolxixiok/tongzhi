@@ -1,60 +1,52 @@
-
-
-<!--功能模块-->
-<view id="body">
-    <view id="gn-wrap">
-        <view class="gn-kuai">
-            <navigator url="kebiao.html">
-                <view>
-                    <image class="img" src="../../images/tzimg/rili.png" alt=""></image>
-                    <view>课表</view>
-                </view>
-            </navigator>
-        </view>
-        <view class="gn-kuai clear">
-            <view>
-                <image class="img" src="../../images/tzimg/grade.png" alt=""></image>
-                <view>成绩查询</view>
-            </view>
-        </view>
-        <view class="gn-kuai">
-            <view>
-                <image class="img" src="../../images/tzimg/kaoqin.png" alt=""></image>
-                <view>考勤</view>
-            </view>
-        </view>
-        <view class="gn-kuai clear">
-            <view>
-                <image class="img" src="../../images/tzimg/shuibiao.png" alt=""></image>
-                <view>水电</view>
-            </view>
-        </view>
-        <view class="gn-kuai">
-            <view>
-                <image class="img" src="../../images/tzimg/xszc.png" alt=""></image>
-                <view>形势与政策</view>
-            </view>
-        </view>
-        <view class="gn-kuai clear">
-            <view>
-                <image class="img" src="../../images/tzimg/jiaoshi.png" alt=""></image>
-                <view>借用教室</view>
-            </view>
-        </view>
-        <view class="gn-kuai">
-            <view>
-                <image class="img" src="../../images/tzimg/phone.png" alt=""></image>
-                <view>联系人</view>
-            </view>
-        </view>
-        <view class="gn-kuai clear">
-            <view>
-                <image class="img" src="../../images/tzimg/feiyong.png" alt=""></image>
-                <view>网费</view>
-            </view>
-        </view>
-
+<!--index.wxml-->
+<view class="container">
+  <!--轮播图-->
+  <swiper class="swiper-wrapper" autoplay="true" circular="true" indicator-dots="true" indicator-color="#fff" indicator-active-color="#6acc88">
+      <swiper-item class="swiper-item" wx:for="{{slides}}" wx:key="*this">
+        <image class="slider-image" src="{{item}}" mode="widthFix"></image>
+      </swiper-item>
+  </swiper>
+  <!--导航按钮-->
+  <view class="nav-btn-list">
+    <view class="btn-item">
+      <image src="../../images/tzimg/jinji.png"></image>
+      <text>紧急</text>
     </view>
+    <view class="btn-item">
+      <image src="../../images/tzimg/zuixin.png"></image>
+      <text>最新</text>
+    </view>
+    <view class="btn-item">
+      <image src="../../images/tzimg/xueyuan.png"></image>
+      <text>学院</text>
+    </view>
+    <view class="btn-item">
+      <image src="../../images/tzimg/yidu.png"></image>
+      <text>已读</text>
+    </view>
+  </view>
+  <!--紧急通知-->
+  <view class="bargain-wrapper">
+    <view class="bargain-header">
+      <view></view>
+      <text>紧急通知</text>
+      <image src="../../images/tzimg/more.png" class="icon-right"></image>
+    </view>
+    <view class="bargain-item" wx:for="{{bargainList}}" wx:key="*this" bindtap="goDetail">
+      <image class="bargain-img" src="{{item.img}}"></image>
+      <view class="bargain-info">
+        <view class="info-header">
+          <text class="title">{{item.title}}</text>
+          <text class='add-xq'>发布：信院团委   2018-11-25</text>
+          <text class="desc">{{item.desc}}</text>
+          <view class='jinji-warning'>紧急</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  
+  <!--到底提示-->
+  <view class="bottom-tip">
+    <text>我也是有底线的！</text>
+  </view>
 </view>
-<!--/功能模块-->
-

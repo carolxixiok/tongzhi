@@ -1,6 +1,317 @@
-<!--pages/movie/movie.wxml-->
+    <!--轮播-->
+    <section >
+        <view id="inform-slide" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <text data-target="#inform-slide" data-slide-to="0" class="active"></text>
+                <text data-target="#inform-slide" data-slide-to="1"></text>
+                <text data-target="#inform-slide" data-slide-to="2"></text>
+            </ol>
 
+            <!-- Wrapper for slides -->
+            <view class="carousel-inner" role="listbox">
+                <view class="item active">
+                    <image src="../../images/tzimg/banner.png"></image>
+                </view>
+                <view class="item">
+                    <image src="../../images/tzimg/banner.png"></image>
+                </view>
+                <view class="item">
+                    <image src="../../images/tzimg/banner.png"></image>
+                </view>
+            </view>
+        </view>
+    </section>
+    <!--轮播-->
+    <!--圆圈分类-->
+    <section id="cirFenlei">
+        <view class="container">
+            <view class="row">
+                <view class="col-xs-3">
+                    <view class="cirKuai">
+                        <image src="../../images/tzimg/jinji.png"></image>
+                    </view>
+                    <view class="cirFont">紧急</view>
+                </view>
+                <view class="col-xs-3">
+                    <view class="cirKuai">
+                        <image src="../../images/tzimg/zuixin.png"></image>
+                    </view>
+                    <view class="cirFont">最新</view>
+                </view>
+                <view class="col-xs-3">
+                    <view class="cirKuai">
+                        <image src="../../images/tzimg/xueyuan.png"></image>
+                    </view>
+                    <view class="cirFont">学院</view>
+                </view>
+                <view class="col-xs-3">
+                    <view class="cirKuai">
+                        <image src="../../images/tzimg/yidu.png"></image>
+                    </view>
+                    <view class="cirFont">已读</view>
+                </view>
+            </view>
+        </view>
+    </section>
+    <!--/圆圈分类-->
+    <!--通知类别一-->
+    <section id="inform-body">
+        <view class="inform-kuai" >
+            <view class="inform-heading">
+               <text class="pull-left"></text>
+               <text class="pull-left"> 紧急通知</text>
+            </view>
+            <view class="inform-list">
+                <view class="media-list">
 
-      <a href="{{pages/me/me}}"><image src="../../images/10.jpg"></image></a>
-    
-
+                    <text class="media">
+                        <view class="media-left">
+                            <a href="#">
+                                <image class="media-object" src="../../images/tzimg/1.jpg"></image>
+                            </a>
+                        </view>
+                        <view class="media-body">
+                            <view class="media-heading">关于2017-2018奖学金评定事项说</view>
+                            <view >
+                                <text class="xinxi">发布者：信院团委</text>
+                                <text class="jinji-warning" >紧急</text>
+                            </view>
+                            <text class="xinxi">时间：2018-11-25</text>
+                            <view class=" xq">
+                                同学们在在这周末将所需评优资料打包,包括证件照片，比赛的得奖奖状
+                            </view>
+                        </view>
+                    </text>
+                    <text class="media">
+                        <view class="media-left">
+                            <a href="#">
+                                <image class="media-object" src="../../images/tzimg/1.jpg"></image>
+                            </a>
+                        </view>
+                        <view class="media-body">
+                            <view class="media-heading">关于2017-2018奖学金评定事项说</view>
+                            <view >
+                                <text class="xinxi">发布者：信院团委</text>
+                                <text class="jinji-warning" >紧急</text>
+                            </view>
+                            <text class="xinxi">时间：2018-11-25</text>
+                            <view class="xinxi xq">
+                                同学们在在这周末将所需评优资料打包,包括证件照片，比赛的得奖奖状
+                            </view>
+                        </view>
+                    </text>                    
+                    <text class="media">
+                        <view class="media-left">
+                            <a href="#">
+                                <image class="media-object" src="../../images/tzimg/1.jpg"></image>
+                            </a>
+                        </view>
+                        <view class="media-body">
+                            <view class="media-heading">关于2017-2018奖学金评定事项说</view>
+                            <view >
+                                <text class="xinxi">发布者：信院团委</text>
+                                <text class="jinji-warning" >紧急</text>
+                            </view>
+                            <text class="xinxi">时间：2018-11-25</text>
+                            <view class="xinxi xq">
+                                同学们在在这周末将所需评优资料打包,包括证件照片，比赛的得奖奖状
+                            </view>
+                        </view>
+                    </text>
+                </view>
+            </view>
+        </view>
+        <view class="inform-kuai" >
+            <view class="inform-heading">
+               <text class="pull-left"></text>
+               <text class="pull-left"> 最新通知</text>
+            </view>
+            <view class="inform-list">
+                <view class="media-list">
+                    <text class="media">
+                        <view class="media-left">
+                            <a href="#">
+                                <image class="media-object" src="../../images/tzimg/1.jpg"></image>
+                            </a>
+                        </view>
+                        <view class="media-body">
+                            <view class="media-heading">关于2017-2018奖学金评定事项说</view>
+                            <view >
+                                <text class="xinxi">发布者：信院团委</text>
+                                <text class="zuixin-warning" >最新</text>
+                            </view>
+                            <text class="xinxi">时间：2018-11-25</text>
+                            <view class=" xq">
+                                同学们在在这周末将所需评优资料打包,包括证件照片，比赛的得奖奖状
+                            </view>
+                        </view>
+                    </text>
+                    <text class="media">
+                        <view class="media-left">
+                            <a href="#">
+                                <image class="media-object" src="../../images/tzimg/1.jpg"></image>
+                            </a>
+                        </view>
+                        <view class="media-body">
+                            <view class="media-heading">关于2017-2018奖学金评定事项说</view>
+                            <view >
+                                <text class="xinxi">发布者：信院团委</text>
+                                <text class="zuixin-warning" >最新</text>
+                            </view>
+                            <text class="xinxi">时间：2018-11-25</text>
+                            <view class="xq">
+                                同学们在在这周末将所需评优资料打包,包括证件照片，比赛的得奖奖状
+                            </view>
+                        </view>
+                    </text>                    
+                    <text class="media">
+                        <view class="media-left">
+                            <a href="#">
+                                <image class="media-object" src="../../images/tzimg/1.jpg"></image>
+                            </a>
+                        </view>
+                        <view class="media-body">
+                            <view class="media-heading">关于2017-2018奖学金评定事项说</view>
+                            <view >
+                                <text class="xinxi">发布者：信院团委</text>
+                                <text class="zuixin-warning" >最新</text>
+                            </view>
+                            <text class="xinxi">时间：2018-11-25</text>
+                            <view class="xq">
+                                同学们在在这周末将所需评优资料打包,包括证件照片，比赛的得奖奖状
+                            </view>
+                        </view>
+                    </text>
+                </view>
+            </view>
+        </view>
+        <view class="inform-kuai" >
+            <view class="inform-heading">
+               <text class="pull-left"></text>
+               <text class="pull-left"> 学院通知</text>
+            </view>
+            <view class="inform-list">
+                <view class="media-list">
+                    <text class="media">
+                        <view class="media-left">
+                            <a href="#">
+                                <image class="media-object" src="../../images/tzimg/1.jpg"></image>
+                            </a>
+                        </view>
+                        <view class="media-body">
+                            <view class="media-heading">关于2017-2018奖学金评定事项说</view>
+                            <view >
+                                <text class="xinxi">发布者：信院团委</text>
+                                <text class="yuan-warning" >学院</text>
+                            </view>
+                            <text class="xinxi">时间：2018-11-25</text>
+                            <view class=" xq">
+                                同学们在在这周末将所需评优资料打包,包括证件照片，比赛的得奖奖状
+                            </view>
+                        </view>
+                    </text>
+                    <text class="media">
+                        <view class="media-left">
+                            <a href="#">
+                                <image class="media-object" src="../../images/tzimg/1.jpg" ></image>
+                            </a>
+                        </view>
+                        <view class="media-body">
+                            <view class="media-heading">关于2017-2018奖学金评定事项说</view>
+                            <view >
+                                <text class="xinxi">发布者：信院团委</text>
+                                <text class="yuan-warning" >学院</text>
+                            </view>
+                            <text class="xinxi">时间：2018-11-25</text>
+                            <view class="xq">
+                                同学们在在这周末将所需评优资料打包,包括证件照片，比赛的得奖奖状
+                            </view>
+                        </view>
+                    </text>                    
+                    <text class="media">
+                        <view class="media-left">
+                            <a href="#">
+                                <image class="media-object" src="../../images/tzimg/1.jpg" ></image>
+                            </a>
+                        </view>
+                        <view class="media-body">
+                            <view class="media-heading">关于2017-2018奖学金评定事项说</view>
+                            <view >
+                                <text class="xinxi">发布者：信院团委</text>
+                                <text class="yuan-warning" >学院</text>
+                            </view>
+                            <text class="xinxi">时间：2018-11-25</text>
+                            <view class="xq">
+                                同学们在在这周末将所需评优资料打包,包括证件照片，比赛的得奖奖状
+                            </view>
+                        </view>
+                    </text>
+                </view>
+            </view>
+        </view>
+        <view class="inform-kuai" >
+            <view class="inform-heading">
+               <text class="pull-left"></text>
+               <text class="pull-left"> 已读通知</text>
+            </view>
+            <view class="inform-list">
+                <view class="media-list">
+                    <text class="media">
+                        <view class="media-left">
+                            <a href="#">
+                                <image class="media-object" src="../../images/tzimg/1.jpg" ></image>
+                            </a>
+                        </view>
+                        <view class="media-body">
+                            <view class="media-heading">关于2017-2018奖学金评定事项说</view>
+                            <view >
+                                <text class="xinxi">发布者：信院团委</text>
+                                <text class="yidu-warning" >已读</text>
+                            </view>
+                            <text class="xinxi">时间：2018-11-25</text>
+                            <view class=" xq">
+                                同学们在在这周末将所需评优资料打包,包括证件照片，比赛的得奖奖状
+                            </view>
+                        </view>
+                    </text>
+                    <text class="media">
+                        <view class="media-left">
+                            <a href="#">
+                                <image class="media-object" src="../../images/tzimg/1.jpg" ></image>
+                            </a>
+                        </view>
+                        <view class="media-body">
+                            <view class="media-heading">关于2017-2018奖学金评定事项说</view>
+                            <view >
+                                <text class="xinxi">发布者：信院团委</text>
+                                <text class="yidu-warning" >已读</text>
+                            </view>
+                            <text class="xinxi">时间：2018-11-25</text>
+                            <view class="xq">
+                                同学们在在这周末将所需评优资料打包,包括证件照片，比赛的得奖奖状
+                            </view>
+                        </view>
+                    </text>                    
+                    <text class="media">
+                        <view class="media-left">
+                            <a href="#">
+                                <image class="media-object" src="../../images/tzimg/1.jpg" ></image>
+                            </a>
+                        </view>
+                        <view class="media-body">
+                            <view class="media-heading">关于2017-2018奖学金评定事项说</view>
+                            <view >
+                                <text class="xinxi">发布者：信院团委</text>
+                                <text class="yidu-warning" >已读</text>
+                            </view>
+                            <text class="xinxi">时间：2018-11-25</text>
+                            <view class="xq">
+                                同学们在在这周末将所需评优资料打包,包括证件照片，比赛的得奖奖状
+                            </view>
+                        </view>
+                    </text>
+                </view>
+            </view>
+        </view>
+    </section>

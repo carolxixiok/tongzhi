@@ -1,16 +1,20 @@
 {
   "pages":[
-    "pages/cinema/cinema",
-    "pages/movie/movie",
-   
+    "pages/find/find",
+    "pages/find/kebiao/kexq/kexq",
     
-    "pages/me/me",
-    "pages/find/find"
+    "pages/find/kebiao/kebiao",
+    "pages/movie/movie",
+    "pages/bangding/bangding",
+    "pages/login/login",
+    "pages/cinema/cinema",
+    "pages/me/me"
+    
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#000",
-    "navigationBarTitleText": "电影",
+    "navigationBarTitleText": "通知",
     "navigationBarTextStyle":"white"
   },
   "tabBar": {
@@ -24,12 +28,12 @@
       "selectedIconPath": "images/bar/movie-1.jpg"
     },{
       "pagePath": "pages/cinema/cinema",
-      "text": "影院",
+      "text": "通知",
       "iconPath": "images/bar/cinema-0.jpg",
       "selectedIconPath": "images/bar/cinema-1.jpg"
     },{
       "pagePath": "pages/find/find",
-      "text": "发现",
+      "text": "生活",
       "iconPath": "images/bar/find-0.jpg",
       "selectedIconPath": "images/bar/find-1.jpg"
     },{

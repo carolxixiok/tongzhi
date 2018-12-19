@@ -1,2 +1,60 @@
-<!--pages/find/find.wxml-->
-<text>pages/find/find.wxml</text>
+    <view id="body">
+
+        <view id="kuai">
+                  <view id="gn-wrap">
+            <view class="gn-kuai">
+                <navigator url="./kebiao/kebiao">
+                    <view>
+                        <image src="../../images/tzimg/rili.png" ></image>
+                        <view>课表</view>
+                    </view>
+                </navigator>
+            </view>
+            <view class="gn-kuai clear">
+                <view>
+                    <image src="../../images/tzimg/grade.png"></image>
+                    <view>成绩查询</view>
+                </view>
+            </view>
+            <view class="gn-kuai">
+                <view>
+                    <image src="../../images/tzimg/kaoqin.png" ></image>
+                    <view>考勤</view>
+                </view>
+            </view>
+            <view class="gn-kuai clear">
+                <view>
+                    <image src="../../images/tzimg/shuibiao.png"></image>
+                    <view>水电</view>
+                </view>
+            </view>
+            <view class="gn-kuai">
+                <view>
+                    <image src="../../images/tzimg/xszc.png"></image>
+                    <view>形势与政策</view>
+                </view>
+            </view>
+            <view class="gn-kuai clear">
+                <view>
+                    <image src="../../images/tzimg/jiaoshi.png"></image>
+                    <view>借用教室</view>
+                </view>
+            </view>
+            <view class="gn-kuai">
+                <view>
+                    <image src="../../images/tzimg/phone.png"></image>
+                    <view>联系人</view>
+                </view>
+            </view>
+            <view class="gn-kuai clear">
+                <view>
+                    <image src="../../images/tzimg/feiyong.png"></image>
+                    <view>网费</view>
+                </view>
+            </view>
+
+        </view>
+        </view>
+    </view>
+
+
